@@ -43,4 +43,13 @@ export default {
   display: flex;
   justify-content: space-between;
 }
+body {
+  background-color: lightblue;
+}
+h1 {
+  text-align: center;
+  text-decoration-style: solid;
+
+
+}
 </style>

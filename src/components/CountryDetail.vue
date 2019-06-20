@@ -4,6 +4,8 @@
     <p>Capital: {{country.capital}}</p>
     <p>Population: {{country.population}}</p>
     <p>Languages: {{country.languages[0].name}}</p>
+    <!-- <p>currency: {{country.currencirs[0].name}}</p> -->
+    <img class="flag" :src="country.flag" />
 
   </div>
 
@@ -17,4 +19,7 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.flag {
+  height: 250px
+}
 </style>
